@@ -42,13 +42,13 @@
     font-weight: 700;
     color: deeppink;
     font-size: 40px;
-    margin-top: 80px;
+    margin-top: 50px;
 
 }
 
 .cardOperation{
     border: 1px solid yellow;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .cardOperation:hover{
@@ -127,8 +127,70 @@
     text-decoration: none !important;
 }
 
+.techonologyText{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
 
 
+.topFixedSummery{
+    background-image: url("../Images/banner-1018817_960_720.jpg");
+    min-height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.topSummeryOverlay{
+
+    position: absolute;
+    min-height: 400px;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+}
+
+.summeryText{
+    color: white;
+    text-align: center;
+    margin-top: 23%;
+}
+
+.cardOfSummery{
+    background-color: white;
+    margin-top: 29%;
+    border-radius: 5px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.headerOfCard{
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: blueviolet;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.cardFont{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: red;
+    padding-bottom: 3px;
+    padding-left: 3rem;
+}
+
+.centerClass{
+    text-align: center !important;
+    margin: 0 auto;
+    background-color: white !important;
+}
 
 
 
