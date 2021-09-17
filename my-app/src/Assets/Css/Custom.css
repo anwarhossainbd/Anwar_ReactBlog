@@ -248,6 +248,33 @@
 }
 
 
+.videoCard{
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+    padding: 3rem 3rem 3rem 3rem;
+    margin: 50px auto;
+    background-color: #ffffff;
+}
+.videoCardTitle{
+    color: #0073e6;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.videoCardDes{
+    color: #2B2B2B;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.videoPlayBtn{
+    color: #0073e6;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
 
 
 
