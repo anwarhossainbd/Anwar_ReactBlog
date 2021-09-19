@@ -1,8 +1,11 @@
 import React, {Component, Fragment} from 'react';
 import {Container, Nav, Navbar, NavDropdown} from "react-bootstrap";
-import "../../Assets/Css/Custom.css"
+import "../../Assets/Css/Custom.css";
+import "../../Assets/Css/responsive.css"
 import Navlogo from "../../Assets/Images/navlogo.svg";
 import NavlogoScroll from "../../Assets/Images/navlogoScroll.svg";
+
+import {NavLink} from 'react-router-dom';
 
 class TopNavigation extends Component {
 
@@ -14,16 +17,17 @@ class TopNavigation extends Component {
             navBackground:"navBackground",
             navImage:[Navlogo],
             navBarLetter :"navLetter",
+            variant:"dark" ,
         }
     }
 
 
     onScroll=()=>{
         if (window.scrollY>100){
-            this.setState({ NavTitle:"navTitleScroll",navBackground:"navBackgroundScroll",navBarLetter:"navLetterScroll",navImage:NavlogoScroll})
+            this.setState({variant:"light", NavTitle:"navTitleScroll",navBackground:"navBackgroundScroll",navBarLetter:"navLetterScroll",navImage:NavlogoScroll})
         }
         else if (window.scrollY<100){
-            this.setState({ NavTitle:"navTitle",navBackground:"navBackground",navBarLetter:"navLetter",navImage:Navlogo })
+            this.setState({variant:"dark", NavTitle:"navTitle",navBackground:"navBackground",navBarLetter:"navLetter",navImage:Navlogo })
         }
     }
 
@@ -38,7 +42,8 @@ class TopNavigation extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar collapseOnSelect className={this.state.navBackground} fixed="top" expand="lg"  variant="dark">
+                <title>{this.props.title}</title>
+                <Navbar collapseOnSelect className={this.state.navBackground} fixed="top" expand="lg"  variant={this.state.dark}>
                     <Container>
                         <Navbar.Brand href="#home" className={this.state.NavTitle}><img  src={this.state.navImage} /> Md.Anwar Hossain</Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -47,12 +52,13 @@ class TopNavigation extends Component {
 
                             </Nav>
                             <Nav>
-                                <Nav.Link className={this.state.navBarLetter} href="#deets">HOME</Nav.Link>
-                                <Nav.Link className={this.state.navBarLetter}  href="#memes">SERVICES</Nav.Link>
-                                <Nav.Link className={this.state.navBarLetter}  href="#memes">COURSES</Nav.Link>
-                                <Nav.Link  className={this.state.navBarLetter} href="#memes">PORTFOLIO</Nav.Link>
-                                <Nav.Link className={this.state.navBarLetter}  href="#memes">CONTACT</Nav.Link>
-                                <Nav.Link className={this.state.navBarLetter}  href="#memes">ABOUT</Nav.Link>
+                                <Nav.Link><NavLink exact={true} activeStyle={{color:"deeppink"}} className={this.state.navBarLetter} to="/">HOME</NavLink> </Nav.Link>
+                                <Nav.Link><NavLink exact={true} activeStyle={{color:"deeppink"}} className={this.state.navBarLetter}  to="/servicepage">SERVICES</NavLink> </Nav.Link>
+                                <Nav.Link><NavLink exact={true} activeStyle={{color:"deeppink"}} className={this.state.navBarLetter}  to="/CoursesPage">COURSES</NavLink>  </Nav.Link>
+                                <Nav.Link><NavLink exact={true} activeStyle={{color:"deeppink"}}  className={this.state.navBarLetter} to="/PortfolioPage">PORTFOLIO</NavLink></Nav.Link>
+                                <Nav.Link><NavLink exact={true} activeStyle={{color:"deeppink"}} className={this.state.navBarLetter}  to="/ContactPage">CONTACT</NavLink></Nav.Link>
+                                <Nav.Link><NavLink exact={true} activeStyle={{color:"deeppink"}} className={this.state.navBarLetter}  to="/AboutPage">ABOUT</NavLink></Nav.Link>
+
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

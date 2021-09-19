@@ -1,27 +1,16 @@
-import TopBanner from "./Components/TopBanner/TopBanner";
-import Services from "./Components/Services/Services";
-import TopNavigation from "./Components/TopNavigation/TopNavigation";
-import Analysis from "./Components/Analysis/Analysis";
-import Summary from "./Components/Summary/Summary";
-import RecentProject from "./Components/RecentProject/RecentProject";
-import Courses from "./Components/Courses/Courses";
-import Video from "./Components/Video/Video";
 
+import {BrowserRouter} from 'react-router-dom';
+import Myroutes from "./Router/Myroutes";
 
 
 function App() {
   return (
-    <div >
+    <div>
 
-        <TopBanner />
-        <Services />
-        <TopNavigation />
-        <Analysis />
-        <Summary />
-        <RecentProject />
-        <Courses />
-        <Video />
+        <BrowserRouter>
 
+            <Myroutes />
+        </BrowserRouter>
 
     </div>
   );

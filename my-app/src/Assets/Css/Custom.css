@@ -115,7 +115,7 @@
     font-family: 'Raleway',sans-serif;
     font-weight: 500;
     font-size: 15px;
-    color: #ffffff !important;
+    color: #ffffff ;
     text-decoration: none !important;
 }
 
@@ -123,7 +123,7 @@
     font-family: 'Raleway',sans-serif;
     font-weight: 500;
     font-size: 15px;
-    color: black  !important;
+    color: black  ;
     text-decoration: none !important;
 }
 
@@ -156,12 +156,12 @@
 .summeryText{
     color: white;
     text-align: center;
-    margin-top: 23%;
+    margin-top: 19%;
 }
 
 .cardOfSummery{
     background-color: white;
-    margin-top: 29%;
+    margin-top: 22%;
     border-radius: 5px;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -249,9 +249,9 @@
 
 
 .videoCard{
-    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+    box-shadow: 0 0 8px 0 rgba(0,115,230,0.8);
     padding: 3rem 3rem 3rem 3rem;
-    margin: 50px auto;
+    margin-top: 20px;
     background-color: #ffffff;
 }
 .videoCardTitle{
@@ -273,6 +273,131 @@
     font-size: 50px;
     cursor: pointer;
 }
+
+
+.carouselImg{
+    margin: 0 auto;
+    border: 1px solid #0073e6;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.carouselTitle{
+    color: salmon;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.carouselDes{
+    color: #2B2B2B;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+.footerMarginTop{
+    margin-top: 5rem;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,0.2);
+}
+.footerTitle{
+    color: deeppink;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.socialLink{
+    text-decoration: none !important;
+    color: #0073e6;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.socialLink:hover{
+    text-decoration: none;
+    color: #2B2B2B;
+}
+.footerLink{
+    text-decoration: none !important;
+    color: #2B2B2B;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.footerLink:hover{
+    text-decoration: none;
+    color: #0073e6;
+}
+.copyrightSection{
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+    background-color: #0073e6;
+
+}
+.copyrightLink{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.copyrightLink:hover{
+    text-decoration: none;
+    color: #2B2B2B;
+}
+
+
+.topPageContent{
+    margin-top: 8rem;
+}
+
+.topPageContentCourse{
+    margin-top: 6rem;
+}
+
+
+
+.serviceName{
+    margin-top: 1rem;
+    font-family: 'Raleway',sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.serviceDescription{
+    color: #2B2B2B;
+    margin-top: 1rem;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.topFixedPage{
+    background-image: url("../Images/banner.jpg");
+    min-height: 280px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.topPageOverlay{
+    position: absolute;
+    min-height: 280px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.topPageContent{
+    margin-top: 8rem;
+}
+.pageTitle{
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 28px;
+}
+
 
 
 

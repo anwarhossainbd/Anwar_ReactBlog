@@ -1,0 +1,162 @@
+@media (max-width: 575.98px) {
+
+    .topTitle{font-size: 32px;}
+
+    .topSubTitle{font-size: 18px;}
+
+    .headerTitle{font-size: 32px;}
+
+    .headerTitleT{font-size: 32px;}
+
+    .headerTitleC{font-size: 32px;}
+
+    .cardHeader{font-size: 20px;}
+
+    .cardText{font-size: 14px;}
+
+    .footerTitle{font-size: 24px;}
+
+    .topFixedSummery{min-height: 470px;}
+
+    .topSummeryOverlay{min-height: 470px;}
+
+    .summeryText{margin-top: 12%;}
+
+
+    .videoCard{
+        box-shadow: 0 0 8px 0 rgba(0,115,230,0.8);
+        padding: 1rem 1rem 1rem 1rem;
+        margin: 1rem auto;
+        width: 90%;
+
+
+    }
+
+    .videoCardTitle{
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .videoCardDes{
+        font-size: 14px;
+    }
+    .videoPlayBtn{
+
+        font-size: 45px;
+
+    }
+
+
+    .cardOfSummery{
+
+    margin-top: 10%;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+    .responsiveit{ margin-top: 55px}
+
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .topTitle{font-size: 36px;}
+
+    .topSubTitle{font-size: 20px;}
+
+    .headerTitle{font-size: 36px;}
+
+    .headerTitleT{font-size: 36px;}
+
+    .headerTitleC{font-size: 36px;}
+
+    .cardHeader{font-size: 24px;}
+
+    .cardText{font-size: 14px;}
+
+    .footerTitle{font-size: 24px;}
+
+    .topFixedSummery{min-height: 480px;}
+
+    .topSummeryOverlay{min-height: 480px;}
+
+    .summeryText{margin-top: 12%;}
+
+    .cardOfSummery{
+
+    margin-top: 7%;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+    .responsiveit{ margin-top: 55px}
+
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .topTitle{font-size: 40px;}
+
+    .topSubTitle{font-size: 20px;}
+
+    .headerTitle{font-size: 36px;}
+
+    .headerTitleT{font-size: 36px;}
+
+    .headerTitleC{font-size: 36px;}
+
+    .cardHeader{font-size: 24px;}
+
+    .cardText{font-size: 14px;}
+
+    .footerTitle{font-size: 24px;}
+
+    .topFixedSummery{min-height: 320px; }
+
+    .topSummeryOverlay{min-height: 320px;}
+
+    .summeryText{margin-top: 35%;}
+
+    .cardOfSummery{
+
+    margin-top: 16%;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+
+@media (min-width: 1200px) {  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
